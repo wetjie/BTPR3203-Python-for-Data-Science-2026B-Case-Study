@@ -1,5 +1,4 @@
 # BTPR3203-Python-for-Data-Science-2026B-Case-Study
-# BTPR3203 Python for Data Science – Case Study
 
 ## Sustainable Industrial Activity in Malaysia: Water Consumption and Industrial Production
 
