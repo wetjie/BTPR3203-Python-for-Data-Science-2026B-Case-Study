@@ -175,30 +175,8 @@ Develop a regular monitoring framework combining industrial production and water
 
 ---
 
-## 7. Project Structure
 
-```text
-BTPR3203_CaseStudy/
-│
-├── README.md
-├── case_study.py
-├── case_study.ipynb
-│
-├── water_consumption.csv
-├── ipi.csv
-│
-├── cleaned_water_consumption_by_state.csv
-├── cleaned_national_water_vs_ipi.csv
-│
-├── fig1_nondomestic_water_by_state_2022.png
-├── fig2_nondomestic_water_growth_2003_2022.png
-└── fig3_national_water_vs_ipi.png
-```
-
----
-
-
-## 8. Output Files
+## 7. Output Files
 
 The pipeline generates the following files:
 
@@ -215,7 +193,7 @@ The pipeline generates the following files:
 
 ---
 
-## 9. Python Libraries
+## 8. Python Libraries
 
 The project uses the following Python libraries:
 
@@ -232,11 +210,3 @@ import seaborn as sns
 * **Seaborn** – statistical and categorical visualisation
 
 ---
-
-## 10. References
-
-Department of Statistics Malaysia. (2020, June 11). *Index of industrial production, Malaysia, April 2020*. https://www.dosm.gov.my/portal-main/release-content/index-of-industrial-production-malaysia-april-2020
-
-Department of Statistics Malaysia. (2026). *Industrial Production Index (IPI)* [Data set]. data.gov.my. https://data.gov.my/data-catalogue/ipi
-
-Department of Statistics Malaysia. (2024). *Water consumption by state and sector* [Data set]. data.gov.my. https://data.gov.my/data-catalogue/water_consumption
