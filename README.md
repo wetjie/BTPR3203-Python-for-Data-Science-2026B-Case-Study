@@ -197,41 +197,8 @@ BTPR3203_CaseStudy/
 
 ---
 
-## 8. How to Run
 
-### Option 1 – Jupyter Notebook
-
-Open:
-
-```text
-case_study.ipynb
-```
-
-Run all cells from the beginning to the end.
-
-The notebook should display:
-
-* Dataset structure and descriptive statistics
-* Missing-value and duplicate checks
-* Data-cleaning outputs
-* Transformation results
-* Analytical results
-* Three visualisations
-* Interpretation of findings
-
-### Option 2 – Python Script
-
-Run:
-
-```bash
-python case_study.py
-```
-
-The script reads both input CSV files and generates the cleaned datasets and visualisation files automatically.
-
----
-
-## 9. Output Files
+## 8. Output Files
 
 The pipeline generates the following files:
 
@@ -248,7 +215,7 @@ The pipeline generates the following files:
 
 ---
 
-## 10. Python Libraries
+## 9. Python Libraries
 
 The project uses the following Python libraries:
 
@@ -266,17 +233,7 @@ import seaborn as sns
 
 ---
 
-## 11. Reproducibility and Analytical Notes
-
-The analysis is designed to be reproducible from the original datasets. Data preparation decisions are documented through code comments and outputs, while analytical choices are explained in the accompanying report and notebook.
-
-The analysis should be interpreted within the limitations of the available datasets. Non-domestic water consumption may include commercial users, while IPI covers mining, manufacturing, and electricity. The correlation analysis is based on only eight annual observations from 2015–2022 and therefore indicates association rather than causation.
-
-Additional facility-level manufacturing data, sector-specific water consumption and production data, automation or technology investment indicators, and longer time-series data would strengthen future analysis.
-
----
-
-## 12. References
+## 10. References
 
 Department of Statistics Malaysia. (2020, June 11). *Index of industrial production, Malaysia, April 2020*. https://www.dosm.gov.my/portal-main/release-content/index-of-industrial-production-malaysia-april-2020
 
